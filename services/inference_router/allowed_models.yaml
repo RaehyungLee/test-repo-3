@@ -1,0 +1,6 @@
+# inference-router model allowlist — mirrors the ai_gateway Bedrock twins.
+allowed_models:
+  - us.anthropic.claude-opus-4-8
+  - us.anthropic.claude-sonnet-4-6
+  # NEW: authorizes the claude-fable-6 twin.
+  - us.anthropic.claude-fable-6
