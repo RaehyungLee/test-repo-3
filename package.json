@@ -1,0 +1,13 @@
+{
+  "name": "test-repo-3",
+  "version": "1.0.0",
+  "description": "Reporting helper that depends on test-repo-2 math utils.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "test-repo-2": "git+https://github.com/RaehyungLee/test-repo-2.git"
+  },
+  "license": "MIT"
+}

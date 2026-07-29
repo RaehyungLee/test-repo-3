@@ -1,3 +1,14 @@
 # test-repo-3
 
-Initialized by the PR conflict scanner integration tests.
+Reporting helper built on `test-repo-2` math utils (`add`, `multiply`).
+
+## Dependencies
+
+- `test-repo-2` — sibling repo, pulled in via git.
+
+## Run
+
+```bash
+npm install
+npm start
+```
